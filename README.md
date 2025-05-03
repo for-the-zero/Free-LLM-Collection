@@ -4,6 +4,14 @@
 
 This is a collection of free LLM apis, and selected some models
 
+我会尽可能更新维护这个项目（目前只有我一个人）
+
+I will keep maintaining and updating this project to the best of my ability
+
+入选原则是：限制请求速率而不是token > 尽可能多的来源 > 尽可能新且好的模型 > 足够用的请求速率
+
+The selection criteria are: limit request rate over token count > more sources > newer and better models > sufficient rate limits
+
 欢迎大家分享更多api
 
 Welcome to share more apis
