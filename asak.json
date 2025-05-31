@@ -1,0 +1,464 @@
+{
+    "providers": {
+        "caw": {
+            "base_url": "https://api.chatanywhere.tech",
+            "key": "sk-NeverGonnaGiveYouUp"
+        },
+        "sf": {
+            "base_url": "https://api.siliconflow.cn/v1",
+            "key": "sk-NeverGonnaLetYouDown"
+        },
+        "or": {
+            "base_url": "https://openrouter.ai/api/v1",
+            "key": "sk-NeverGonnaRunAroundAndDesertYou"
+        },
+        "ilm": {
+            "base_url": "https://chat.intern-ai.org.cn/api/v1",
+            "key": "sk-NeverGonnaMakeYouCry"
+        },
+        "sl": {
+            "base_url": "https://api.suanli.cn/v1",
+            "key": "sk-NeverGonnaSayGoodbye"
+        },
+        "g": {
+            "base_url": "https://generativelanguage.googleapis.com/v1beta/openai",
+            "key": "sk-NeverGonnaTellALieAndHurtYou"
+        },
+        "moe": {
+            "base_url": "https://api.moeres.cn/v1",
+            "key": "sk-GeneratedBy-RickAstley"
+        }
+    },
+    "models": [
+        {
+            "provider": "moe",
+            "model": "gemini-2.5-pro-preview-05-06",
+            "tags": [
+                "thinking",
+                "pro",
+                "coding"
+            ],
+            "rate_limit": {
+                "rpm": 600,
+                "rpd": 1919810
+            }
+        },
+        {
+            "provider": "or",
+            "model": "deepseek/deepseek-r1-0528:free",
+            "tags": [
+                "thinking",
+                "pro",
+                "coding"
+            ],
+            "rate_limit": {
+                "rpm": 20,
+                "rpd": 200
+            }
+        },
+        {
+            "provider": "moe",
+            "model": "deepseek-ai/DeepSeek-R1-0528",
+            "tags": [
+                "coding",
+                "pro",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 600,
+                "rpd": 1919810
+            }
+        },
+        {
+            "provider": "moe",
+            "model": "gemini-2.5-flash-preview-05-20-thinking",
+            "tags": [
+                "coding",
+                "fast",
+                "medium",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 600,
+                "rpd": 1919810
+            }
+        },
+        {
+            "provider": "moe",
+            "model": "Qwen/Qwen3-235B-A22B",
+            "tags": [
+                "pro",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 600,
+                "rpd": 1919810
+            }
+        },
+        {
+            "provider": "or",
+            "model": "deepseek/deepseek-chat-v3-0324:free",
+            "tags": [
+                "coding",
+                "pro"
+            ],
+            "rate_limit": {
+                "rpm": 20,
+                "rpd": 200
+            }
+        },
+        {
+            "provider": "moe",
+            "model": "deepseek-ai/DeepSeek-V3-0324",
+            "tags": [
+                "coding",
+                "pro"
+            ],
+            "rate_limit": {
+                "rpm": 600,
+                "rpd": 1919810
+            }
+        },
+        {
+            "provider": "moe",
+            "model": "gemini-2.5-flash-preview-05-20-nothinking",
+            "tags": [
+                "coding",
+                "fast",
+                "medium"
+            ],
+            "rate_limit": {
+                "rpm": 600,
+                "rpd": 1919810
+            }
+        },
+        {
+            "provider": "g",
+            "model": "gemini-2.5-flash-preview-05-20",
+            "tags": [
+                "gfw",
+                "coding",
+                "fast",
+                "medium"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 500
+            }
+        },
+        {
+            "provider": "or",
+            "model": "deepseek/deepseek-r1:free",
+            "tags": [
+                "coding",
+                "pro",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 20,
+                "rpd": 200
+            }
+        },
+        {
+            "provider": "moe",
+            "model": "gemini-2.0-flash-thinking-exp-01-21",
+            "tags": [
+                "coding",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 600,
+                "rpd": 1919810
+            }
+        },
+        {
+            "provider": "g",
+            "model": "gemini-2.0-flash",
+            "tags": [
+                "gfw",
+                "medium"
+            ],
+            "rate_limit": {
+                "rpm": 15,
+                "rpd": 1500
+            }
+        },
+        {
+            "provider": "or",
+            "model": "google/gemma-3-27b-it:free",
+            "tags": [
+                "fast"
+            ],
+            "rate_limit": {
+                "rpm": 20,
+                "rpd": 200
+            }
+        },
+        {
+            "provider": "moe",
+            "model": "gemma-3-27b-it",
+            "tags": [
+                "fast"
+            ],
+            "rate_limit": {
+                "rpm": 600,
+                "rpd": 1919810
+            }
+        },
+        {
+            "provider": "moe",
+            "model": "Qwen/Qwen3-30B-A3B",
+            "tags": [
+                "medium",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 600,
+                "rpd": 1919810
+            }
+        },
+        {
+            "provider": "or",
+            "model": "qwen/qwq-32b:free",
+            "tags": [
+                "thinking",
+                "medium"
+            ],
+            "rate_limit": {
+                "rpm": 20,
+                "rpd": 200
+            }
+        },
+        {
+            "provider": "sl",
+            "model": "free:QwQ-32B",
+            "tags": [
+                "thinking",
+                "medium"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 1919810
+            }
+        },
+        {
+            "provider": "moe",
+            "model": "Qwen/QwQ-32B",
+            "tags": [
+                "thinking",
+                "medium"
+            ],
+            "rate_limit": {
+                "rpm": 600,
+                "rpd": 1919810
+            }
+        },
+        {
+            "provider": "g",
+            "model": "gemini-2.0-flash-lite",
+            "tags": [
+                "gfw",
+                "fast"
+            ],
+            "rate_limit": {
+                "rpm": 30,
+                "rpd": 1500
+            }
+        },
+        {
+            "provider": "moe",
+            "model": "gemini-2.0-flash-lite-preview-02-05",
+            "tags": [
+                "fast"
+            ],
+            "rate_limit": {
+                "rpm": 600,
+                "rpd": 1919810
+            }
+        },
+        {
+            "provider": "or",
+            "model": "qwen/qwen-2.5-72b-instruct:free",
+            "tags": [
+                "pro"
+            ],
+            "rate_limit": {
+                "rpm": 20,
+                "rpd": 200
+            }
+        },
+        {
+            "provider": "moe",
+            "model": "THUDM/GLM-Z1-32B-0414",
+            "tags": [
+                "thinking",
+                "medium"
+            ],
+            "rate_limit": {
+                "rpm": 600,
+                "rpd": 1919810
+            }
+        },
+        {
+            "provider": "or",
+            "model": "thudm/glm-z1-32b:free",
+            "tags": [
+                "thinking",
+                "medium"
+            ],
+            "rate_limit": {
+                "rpm": 20,
+                "rpd": 200
+            }
+        },
+        {
+            "provider": "moe",
+            "model": "THUDM/GLM-4-32B-0414",
+            "tags": [
+                "medium"
+            ],
+            "rate_limit": {
+                "rpm": 600,
+                "rpd": 1919810
+            }
+        },
+        {
+            "provider": "caw",
+            "model": "gpt-4o-mini",
+            "tags": [
+                "fast"
+            ],
+            "rate_limit": {
+                "rpm": 100,
+                "rpd": 1919810
+            }
+        },
+        {
+            "provider": "moe",
+            "model": "Qwen/Qwen2.5-Coder-32B-Instruct",
+            "tags": [
+                "coding",
+                "medium"
+            ],
+            "rate_limit": {
+                "rpm": 600,
+                "rpd": 1919810
+            }
+        },
+        {
+            "provider": "or",
+            "model": "qwen/qwen-2.5-coder-32b-instruct:free",
+            "tags": [
+                "coding",
+                "medium"
+            ],
+            "rate_limit": {
+                "rpm": 20,
+                "rpd": 200
+            }
+        },
+        {
+            "provider": "g",
+            "model": "gemini-1.5-flash",
+            "tags": [
+                "gfw",
+                "medium"
+            ],
+            "rate_limit": {
+                "rpm": 15,
+                "rpd": 1500
+            }
+        },
+        {
+            "provider": "sf",
+            "model": "THUDM/GLM-Z1-9B-0414",
+            "tags": [
+                "fast",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 1000,
+                "rpd": 50000
+            }
+        },
+        {
+            "provider": "sf",
+            "model": "THUDM/GLM-4-9B-0414",
+            "tags": [
+                "fast"
+            ],
+            "rate_limit": {
+                "rpm": 1000,
+                "rpd": 50000
+            }
+        },
+        {
+            "provider": "sf",
+            "model": "THUDM/glm-4-9b-chat",
+            "tags": [
+                "fast"
+            ],
+            "rate_limit": {
+                "rpm": 1000,
+                "rpd": 50000
+            }
+        },
+        {
+            "provider": "sf",
+            "model": "deepseek-ai/DeepSeek-R1-0528-0528-Qwen3-8B",
+            "tags": [
+                "thinking",
+                "fast"
+            ],
+            "rate_limit": {
+                "rpm": 1000,
+                "rpd": 50000
+            }
+        },
+        {
+            "provider": "sf",
+            "model": "Qwen/Qwen3-8B",
+            "tags": [
+                "fast"
+            ],
+            "rate_limit": {
+                "rpm": 1000,
+                "rpd": 50000
+            }
+        },
+        {
+            "provider": "sf",
+            "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+            "tags": [
+                "coding",
+                "fast"
+            ],
+            "rate_limit": {
+                "rpm": 1000,
+                "rpd": 50000
+            }
+        },
+        {
+            "provider": "ilm",
+            "model": "internlm3-latest",
+            "tags": [
+                "fast"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 1919810
+            }
+        },
+        {
+            "provider": "sf",
+            "model": "internlm/internlm2_5-7b-chat",
+            "tags": [
+                "fast"
+            ],
+            "rate_limit": {
+                "rpm": 1000,
+                "rpd": 50000
+            }
+        }
+    ]
+}
