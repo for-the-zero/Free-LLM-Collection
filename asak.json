@@ -27,20 +27,62 @@
         "moe": {
             "base_url": "https://api.moeres.cn/v1",
             "key": "sk-GeneratedBy-RickAstley"
+        },
+        "ms": {
+            "base_url": "https://api-inference.modelscope.cn/v1/",
+            "key": "sk"
+        },
+        "ch": {
+            "base_url": "https://api.cohere.ai/compatibility/v1",
+            "key": "sk"
+        },
+        "bm": {
+            "base_url": "https://open.bigmodel.cn/api/paas/v4/",
+            "key": "sk"
+        },
+        "gh": {
+            "base_url": "https://models.github.ai/inference",
+            "key": "sk"
         }
     },
     "models": [
         {
-            "provider": "moe",
-            "model": "gemini-2.5-pro-preview-05-06",
+            "provider": "g",
+            "model": "gemini-2.5-pro",
             "tags": [
-                "thinking",
                 "pro",
-                "coding"
+                "coding",
+                "thinking"
             ],
             "rate_limit": {
-                "rpm": 600,
-                "rpd": 1919810
+                "rpm": 5,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "moe",
+            "model": "gemini-2.5-pro",
+            "tags": [
+                "pro",
+                "coding",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "ms",
+            "model": "deepseek-ai/DeepSeek-R1-0528",
+            "tags": [
+                "coding",
+                "pro",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 200,
+                "rpd": 200
             }
         },
         {
@@ -65,34 +107,56 @@
                 "thinking"
             ],
             "rate_limit": {
-                "rpm": 600,
-                "rpd": 1919810
+                "rpm": 10,
+                "rpd": 100
             }
         },
         {
-            "provider": "moe",
-            "model": "gemini-2.5-flash-preview-05-20-thinking",
+            "provider": "or",
+            "model": "moonshotai/kimi-dev-72b:free",
             "tags": [
                 "coding",
-                "fast",
-                "medium",
-                "thinking"
+                "pro"
             ],
             "rate_limit": {
-                "rpm": 600,
-                "rpd": 1919810
+                "rpm": 20,
+                "rpd": 200
             }
         },
         {
             "provider": "moe",
-            "model": "Qwen/Qwen3-235B-A22B",
+            "model": "gemini-2.5-flash-preview-04-17-thinking",
             "tags": [
-                "pro",
-                "thinking"
+                "thinking",
+                "medium",
+                "coding"
             ],
             "rate_limit": {
-                "rpm": 600,
-                "rpd": 1919810
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "gm",
+            "model": "openai/gpt-4.1",
+            "tags": [
+                "medium"
+            ],
+            "rate_limit": {
+                "rpm": 15,
+                "rpd": 150
+            }
+        },
+        {
+            "provider": "ms",
+            "model": "deepseek-ai/DeepSeek-V3-0324",
+            "tags": [
+                "coding",
+                "pro"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 10
             }
         },
         {
@@ -115,35 +179,8 @@
                 "pro"
             ],
             "rate_limit": {
-                "rpm": 600,
-                "rpd": 1919810
-            }
-        },
-        {
-            "provider": "moe",
-            "model": "gemini-2.5-flash-preview-05-20-nothinking",
-            "tags": [
-                "coding",
-                "fast",
-                "medium"
-            ],
-            "rate_limit": {
-                "rpm": 600,
-                "rpd": 1919810
-            }
-        },
-        {
-            "provider": "g",
-            "model": "gemini-2.5-flash-preview-05-20",
-            "tags": [
-                "gfw",
-                "coding",
-                "fast",
-                "medium"
-            ],
-            "rate_limit": {
                 "rpm": 10,
-                "rpd": 500
+                "rpd": 100
             }
         },
         {
@@ -161,14 +198,109 @@
         },
         {
             "provider": "moe",
-            "model": "gemini-2.0-flash-thinking-exp-01-21",
+            "model": "gemini-2.0-pro-exp",
             "tags": [
-                "coding",
+                "pro",
+                "coding"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "g",
+            "model": "gemini-2.5-flash",
+            "tags": [
+                "fast",
+                "medium",
+                "coding"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 250
+            }
+        },
+        {
+            "provider": "moe",
+            "model": "gemini-2.5-flash",
+            "tags": [
+                "fast",
+                "medium",
+                "coding"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "moe",
+            "model": "Qwen/Qwen3-235B-A22B",
+            "tags": [
+                "pro",
                 "thinking"
             ],
             "rate_limit": {
-                "rpm": 600,
-                "rpd": 1919810
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "ms",
+            "model": "Qwen/Qwen3-32B",
+            "tags": [
+                "medium",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 2000,
+                "rpd": 2000
+            }
+        },
+        {
+            "provider": "ms",
+            "model": "Qwen/Qwen3-30B-A3B",
+            "tags": [
+                "medium",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 2000,
+                "rpd": 2000
+            }
+        },
+        {
+            "provider": "g",
+            "model": "gemini-2.5-flash-lite-preview-06-17",
+            "tags": [
+                "fast"
+            ],
+            "rate_limit": {
+                "rpm": 15,
+                "rpd": 1000
+            }
+        },
+        {
+            "provider": "moe",
+            "model": "gemini-2.5-flash-lite-preview-06-17",
+            "tags": [
+                "fast"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "gm",
+            "model": "openai/gpt-4.1-mini",
+            "tags": [
+                "fast"
+            ],
+            "rate_limit": {
+                "rpm": 15,
+                "rpd": 150
             }
         },
         {
@@ -184,28 +316,6 @@
             }
         },
         {
-            "provider": "or",
-            "model": "google/gemma-3-27b-it:free",
-            "tags": [
-                "fast"
-            ],
-            "rate_limit": {
-                "rpm": 20,
-                "rpd": 200
-            }
-        },
-        {
-            "provider": "moe",
-            "model": "gemma-3-27b-it",
-            "tags": [
-                "fast"
-            ],
-            "rate_limit": {
-                "rpm": 600,
-                "rpd": 1919810
-            }
-        },
-        {
             "provider": "moe",
             "model": "Qwen/Qwen3-30B-A3B",
             "tags": [
@@ -213,8 +323,8 @@
                 "thinking"
             ],
             "rate_limit": {
-                "rpm": 600,
-                "rpd": 1919810
+                "rpm": 10,
+                "rpd": 100
             }
         },
         {
@@ -249,42 +359,8 @@
                 "medium"
             ],
             "rate_limit": {
-                "rpm": 600,
-                "rpd": 1919810
-            }
-        },
-        {
-            "provider": "g",
-            "model": "gemini-2.0-flash-lite",
-            "tags": [
-                "gfw",
-                "fast"
-            ],
-            "rate_limit": {
-                "rpm": 30,
-                "rpd": 1500
-            }
-        },
-        {
-            "provider": "moe",
-            "model": "gemini-2.0-flash-lite-preview-02-05",
-            "tags": [
-                "fast"
-            ],
-            "rate_limit": {
-                "rpm": 600,
-                "rpd": 1919810
-            }
-        },
-        {
-            "provider": "or",
-            "model": "qwen/qwen-2.5-72b-instruct:free",
-            "tags": [
-                "pro"
-            ],
-            "rate_limit": {
-                "rpm": 20,
-                "rpd": 200
+                "rpm": 10,
+                "rpd": 100
             }
         },
         {
@@ -295,8 +371,8 @@
                 "medium"
             ],
             "rate_limit": {
-                "rpm": 600,
-                "rpd": 1919810
+                "rpm": 10,
+                "rpd": 100
             }
         },
         {
@@ -312,14 +388,26 @@
             }
         },
         {
+            "provider": "ch",
+            "model": "command-a-03-2025",
+            "tags": [
+                "fast",
+                "medium"
+            ],
+            "rate_limit": {
+                "rpm": 20,
+                "rpd": 12000
+            }
+        },
+        {
             "provider": "moe",
             "model": "THUDM/GLM-4-32B-0414",
             "tags": [
                 "medium"
             ],
             "rate_limit": {
-                "rpm": 600,
-                "rpd": 1919810
+                "rpm": 10,
+                "rpd": 100
             }
         },
         {
@@ -330,18 +418,6 @@
             ],
             "rate_limit": {
                 "rpm": 100,
-                "rpd": 1919810
-            }
-        },
-        {
-            "provider": "moe",
-            "model": "Qwen/Qwen2.5-Coder-32B-Instruct",
-            "tags": [
-                "coding",
-                "medium"
-            ],
-            "rate_limit": {
-                "rpm": 600,
                 "rpd": 1919810
             }
         },
@@ -358,15 +434,50 @@
             }
         },
         {
-            "provider": "g",
-            "model": "gemini-1.5-flash",
+            "provider": "bm",
+            "model": "GLM-Z1-Flash",
             "tags": [
-                "gfw",
-                "medium"
+                "fast",
+                "thinking"
             ],
             "rate_limit": {
-                "rpm": 15,
-                "rpd": 1500
+                "rpm": 60,
+                "rpd": 86400
+            }
+        },
+        {
+            "provider": "bm",
+            "model": "GLM-4-Flash-250414",
+            "tags": [
+                "fast"
+            ],
+            "rate_limit": {
+                "rpm": 60,
+                "rpd": 86400
+            }
+        },
+        {
+            "provider": "sf",
+            "model": "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
+            "tags": [
+                "thinking",
+                "fast"
+            ],
+            "rate_limit": {
+                "rpm": 1000,
+                "rpd": 50000
+            }
+        },
+        {
+            "provider": "sf",
+            "model": "Qwen/Qwen3-8B",
+            "tags": [
+                "fast",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 1000,
+                "rpd": 50000
             }
         },
         {
@@ -404,41 +515,6 @@
             }
         },
         {
-            "provider": "sf",
-            "model": "deepseek-ai/DeepSeek-R1-0528-0528-Qwen3-8B",
-            "tags": [
-                "thinking",
-                "fast"
-            ],
-            "rate_limit": {
-                "rpm": 1000,
-                "rpd": 50000
-            }
-        },
-        {
-            "provider": "sf",
-            "model": "Qwen/Qwen3-8B",
-            "tags": [
-                "fast"
-            ],
-            "rate_limit": {
-                "rpm": 1000,
-                "rpd": 50000
-            }
-        },
-        {
-            "provider": "sf",
-            "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
-            "tags": [
-                "coding",
-                "fast"
-            ],
-            "rate_limit": {
-                "rpm": 1000,
-                "rpd": 50000
-            }
-        },
-        {
             "provider": "ilm",
             "model": "internlm3-latest",
             "tags": [
@@ -447,17 +523,6 @@
             "rate_limit": {
                 "rpm": 10,
                 "rpd": 1919810
-            }
-        },
-        {
-            "provider": "sf",
-            "model": "internlm/internlm2_5-7b-chat",
-            "tags": [
-                "fast"
-            ],
-            "rate_limit": {
-                "rpm": 1000,
-                "rpd": 50000
             }
         }
     ]
