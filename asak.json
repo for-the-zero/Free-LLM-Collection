@@ -28,10 +28,6 @@
             "base_url": "https://api.moeres.cn/v1",
             "key": "sk-GeneratedBy-RickAstley"
         },
-        "ms": {
-            "base_url": "https://api-inference.modelscope.cn/v1/",
-            "key": "sk"
-        },
         "ch": {
             "base_url": "https://api.cohere.ai/compatibility/v1",
             "key": "sk"
@@ -73,19 +69,6 @@
             }
         },
         {
-            "provider": "ms",
-            "model": "deepseek-ai/DeepSeek-R1-0528",
-            "tags": [
-                "coding",
-                "pro",
-                "thinking"
-            ],
-            "rate_limit": {
-                "rpm": 200,
-                "rpd": 200
-            }
-        },
-        {
             "provider": "or",
             "model": "deepseek/deepseek-r1-0528:free",
             "tags": [
@@ -112,18 +95,6 @@
             }
         },
         {
-            "provider": "or",
-            "model": "moonshotai/kimi-dev-72b:free",
-            "tags": [
-                "coding",
-                "pro"
-            ],
-            "rate_limit": {
-                "rpm": 20,
-                "rpd": 200
-            }
-        },
-        {
             "provider": "moe",
             "model": "gemini-2.5-flash-preview-04-17-thinking",
             "tags": [
@@ -145,18 +116,6 @@
             "rate_limit": {
                 "rpm": 15,
                 "rpd": 150
-            }
-        },
-        {
-            "provider": "ms",
-            "model": "deepseek-ai/DeepSeek-V3-0324",
-            "tags": [
-                "coding",
-                "pro"
-            ],
-            "rate_limit": {
-                "rpm": 10,
-                "rpd": 10
             }
         },
         {
@@ -197,6 +156,17 @@
             }
         },
         {
+            "provider": "or",
+            "model": "openrouter/cypher-alpha:free",
+            "tags": [
+                "medium"
+            ],
+            "rate_limit": {
+                "rpm": 20,
+                "rpd": 200
+            }
+        },
+        {
             "provider": "moe",
             "model": "gemini-2.0-pro-exp",
             "tags": [
@@ -206,6 +176,17 @@
             "rate_limit": {
                 "rpm": 10,
                 "rpd": 100
+            }
+        },
+        {
+            "provider": "or",
+            "model": "tencent/hunyuan-a13b-instruct:free",
+            "tags": [
+                "medium"
+            ],
+            "rate_limit": {
+                "rpm": 20,
+                "rpd": 200
             }
         },
         {
@@ -244,30 +225,6 @@
             "rate_limit": {
                 "rpm": 10,
                 "rpd": 100
-            }
-        },
-        {
-            "provider": "ms",
-            "model": "Qwen/Qwen3-32B",
-            "tags": [
-                "medium",
-                "thinking"
-            ],
-            "rate_limit": {
-                "rpm": 2000,
-                "rpd": 2000
-            }
-        },
-        {
-            "provider": "ms",
-            "model": "Qwen/Qwen3-30B-A3B",
-            "tags": [
-                "medium",
-                "thinking"
-            ],
-            "rate_limit": {
-                "rpm": 2000,
-                "rpd": 2000
             }
         },
         {
@@ -381,6 +338,18 @@
             "tags": [
                 "thinking",
                 "medium"
+            ],
+            "rate_limit": {
+                "rpm": 20,
+                "rpd": 200
+            }
+        },
+        {
+            "provider": "or",
+            "model": "moonshotai/kimi-dev-72b:free",
+            "tags": [
+                "coding",
+                "pro"
             ],
             "rate_limit": {
                 "rpm": 20,
