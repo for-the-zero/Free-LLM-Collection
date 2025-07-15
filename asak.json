@@ -28,7 +28,7 @@
             "base_url": "https://api.moeres.cn/v1",
             "key": "sk-GeneratedBy-RickAstley"
         },
-        "ch": {
+        "co": {
             "base_url": "https://api.cohere.ai/compatibility/v1",
             "key": "sk"
         },
@@ -48,7 +48,8 @@
             "tags": [
                 "pro",
                 "coding",
-                "thinking"
+                "thinking",
+                "gfw"
             ],
             "rate_limit": {
                 "rpm": 5,
@@ -62,6 +63,68 @@
                 "pro",
                 "coding",
                 "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "moe",
+            "model": "claude-opus-4-20250514-thinking",
+            "tags": [
+                "pro",
+                "coding",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "moe",
+            "model": "grok-4-nano",
+            "tags": [
+                "pro",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "moe",
+            "model": "o3-pro",
+            "tags": [
+                "pro",
+                "coding",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "moe",
+            "model": "doubao-seed-1-6-thinking-250615",
+            "tags": [
+                "medium",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "moe",
+            "model": "o4-mini",
+            "tags": [
+                "medium",
+                "coding"
             ],
             "rate_limit": {
                 "rpm": 10,
@@ -156,6 +219,17 @@
             }
         },
         {
+            "provider": "moe",
+            "model": "grok-3",
+            "tags": [
+                "pro"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
             "provider": "or",
             "model": "openrouter/cypher-alpha:free",
             "tags": [
@@ -164,18 +238,6 @@
             "rate_limit": {
                 "rpm": 20,
                 "rpd": 200
-            }
-        },
-        {
-            "provider": "moe",
-            "model": "gemini-2.0-pro-exp",
-            "tags": [
-                "pro",
-                "coding"
-            ],
-            "rate_limit": {
-                "rpm": 10,
-                "rpd": 100
             }
         },
         {
@@ -190,12 +252,48 @@
             }
         },
         {
+            "provider": "moe",
+            "model": "tencent/Hunyuan-A13B-Instruct",
+            "tags": [
+                "medium"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "moe",
+            "model": "gpt-4o",
+            "tags": [
+                "medium"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "moe",
+            "model": "claude-3-7-sonnet-20250219-thinking",
+            "tags": [
+                "medium",
+                "thinking",
+                "coding"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
             "provider": "g",
             "model": "gemini-2.5-flash",
             "tags": [
                 "fast",
                 "medium",
-                "coding"
+                "coding",
+                "gfw"
             ],
             "rate_limit": {
                 "rpm": 10,
@@ -209,6 +307,42 @@
                 "fast",
                 "medium",
                 "coding"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "moe",
+            "model": "claude-3-7-sonnet-20250219",
+            "tags": [
+                "medium",
+                "coding"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "moe",
+            "model": "grok-3-reasoner",
+            "tags": [
+                "pro",
+                "coding",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "moe",
+            "model": "gpt-4.1",
+            "tags": [
+                "medium"
             ],
             "rate_limit": {
                 "rpm": 10,
@@ -231,7 +365,8 @@
             "provider": "g",
             "model": "gemini-2.5-flash-lite-preview-06-17",
             "tags": [
-                "fast"
+                "fast",
+                "gfw"
             ],
             "rate_limit": {
                 "rpm": 15,
@@ -261,23 +396,47 @@
             }
         },
         {
-            "provider": "g",
-            "model": "gemini-2.0-flash",
-            "tags": [
-                "gfw",
-                "medium"
-            ],
-            "rate_limit": {
-                "rpm": 15,
-                "rpd": 1500
-            }
-        },
-        {
             "provider": "moe",
             "model": "Qwen/Qwen3-30B-A3B",
             "tags": [
                 "medium",
                 "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "or",
+            "model": "moonshotai/kimi-k2:free",
+            "tags": [
+                "pro",
+                "coding"
+            ],
+            "rate_limit": {
+                "rpm": 20,
+                "rpd": 200
+            }
+        },
+        {
+            "provider": "moe",
+            "model": "ERNIE-4.5-300B-A47B",
+            "tags": [
+                "pro",
+                "coding"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "moe",
+            "model": "claude-opus-4-20250514",
+            "tags": [
+                "pro",
+                "coding"
             ],
             "rate_limit": {
                 "rpm": 10,
@@ -322,6 +481,17 @@
         },
         {
             "provider": "moe",
+            "model": "doubao-seed-1-6-250615",
+            "tags": [
+                "medium"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "moe",
             "model": "THUDM/GLM-Z1-32B-0414",
             "tags": [
                 "thinking",
@@ -357,7 +527,19 @@
             }
         },
         {
-            "provider": "ch",
+            "provider": "moe",
+            "model": "Kimi-Dev-72B",
+            "tags": [
+                "coding",
+                "pro"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "co",
             "model": "command-a-03-2025",
             "tags": [
                 "fast",
@@ -431,6 +613,18 @@
             "tags": [
                 "thinking",
                 "fast"
+            ],
+            "rate_limit": {
+                "rpm": 1000,
+                "rpd": 50000
+            }
+        },
+        {
+            "provider": "sf",
+            "model": "THUDM/GLM-4.1V-9B-Thinking",
+            "tags": [
+                "fast",
+                "thinking"
             ],
             "rate_limit": {
                 "rpm": 1000,
