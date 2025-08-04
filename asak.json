@@ -47,28 +47,11 @@
         "bobo": {
             "base_url": "https://for.shuo.bar/v1",
             "key": ""
-        },
-        "az": {
-            "base_url": "https://newapi.aliyahzombie.top/v1",
-            "key": ""
         }
     },
     "models": [
         {
             "provider": "gpb",
-            "model": "gemini-2.5-pro",
-            "tags": [
-                "pro",
-                "coding",
-                "thinking"
-            ],
-            "rate_limit": {
-                "rpm": 10,
-                "rpd": 250
-            }
-        },
-        {
-            "provider": "az",
             "model": "gemini-2.5-pro",
             "tags": [
                 "pro",
@@ -240,18 +223,6 @@
         },
         {
             "provider": "gpb",
-            "model": "gemini-2.5-flash",
-            "tags": [
-                "medium",
-                "coding"
-            ],
-            "rate_limit": {
-                "rpm": 10,
-                "rpd": 250
-            }
-        },
-        {
-            "provider": "az",
             "model": "gemini-2.5-flash",
             "tags": [
                 "medium",
