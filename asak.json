@@ -43,10 +43,6 @@
         "targ": {
             "base_url": "https://api.targon.com/v1",
             "key": ""
-        },
-        "bobo": {
-            "base_url": "https://for.shuo.bar/v1",
-            "key": ""
         }
     },
     "models": [
@@ -60,19 +56,6 @@
             ],
             "rate_limit": {
                 "rpm": 10,
-                "rpd": 250
-            }
-        },
-        {
-            "provider": "bobo",
-            "model": "gemini-2.5-pro",
-            "tags": [
-                "pro",
-                "coding",
-                "thinking"
-            ],
-            "rate_limit": {
-                "rpm": 15,
                 "rpd": 250
             }
         },
@@ -153,18 +136,6 @@
             }
         },
         {
-            "provider": "bobo",
-            "model": "glm-4.5",
-            "tags": [
-                "pro",
-                "thinking"
-            ],
-            "rate_limit": {
-                "rpm": 15,
-                "rpd": 250
-            }
-        },
-        {
             "provider": "gm",
             "model": "openai/gpt-4.1",
             "tags": [
@@ -173,17 +144,6 @@
             "rate_limit": {
                 "rpm": 15,
                 "rpd": 150
-            }
-        },
-        {
-            "provider": "bobo",
-            "model": "gpt-4.1",
-            "tags": [
-                "medium"
-            ],
-            "rate_limit": {
-                "rpm": 15,
-                "rpd": 250
             }
         },
         {
@@ -230,18 +190,6 @@
             ],
             "rate_limit": {
                 "rpm": 10,
-                "rpd": 250
-            }
-        },
-        {
-            "provider": "bobo",
-            "model": "gemini-2.5-flash",
-            "tags": [
-                "medium",
-                "coding"
-            ],
-            "rate_limit": {
-                "rpm": 15,
                 "rpd": 250
             }
         },
@@ -318,17 +266,6 @@
             }
         },
         {
-            "provider": "bobo",
-            "model": "gpt-4o",
-            "tags": [
-                "medium"
-            ],
-            "rate_limit": {
-                "rpm": 15,
-                "rpd": 250
-            }
-        },
-        {
             "provider": "bm",
             "model": "GLM-4.5-Flash",
             "tags": [
@@ -353,18 +290,6 @@
             }
         },
         {
-            "provider": "bobo",
-            "model": "glm-4.5-flash",
-            "tags": [
-                "medium",
-                "thinking"
-            ],
-            "rate_limit": {
-                "rpm": 15,
-                "rpd": 250
-            }
-        },
-        {
             "provider": "or",
             "model": "z-ai/glm-4.5-air:free",
             "tags": [
@@ -374,17 +299,6 @@
             "rate_limit": {
                 "rpm": 20,
                 "rpd": 200
-            }
-        },
-        {
-            "provider": "bobo",
-            "model": "gemini-2.5-flash-lite",
-            "tags": [
-                "fast"
-            ],
-            "rate_limit": {
-                "rpm": 15,
-                "rpd": 250
             }
         },
         {
@@ -408,17 +322,6 @@
             "rate_limit": {
                 "rpm": 15,
                 "rpd": 150
-            }
-        },
-        {
-            "provider": "bobo",
-            "model": "gpt-4.1-mini",
-            "tags": [
-                "fast"
-            ],
-            "rate_limit": {
-                "rpm": 15,
-                "rpd": 250
             }
         },
         {
