@@ -54,6 +54,18 @@
         },
         {
             "provider": "or",
+            "model": "deepseek/deepseek-chat-v3.1:free",
+            "tags": [
+                "pro",
+                "coding"
+            ],
+            "rate_limit": {
+                "rpm": 20,
+                "rpd": 200
+            }
+        },
+        {
+            "provider": "or",
             "model": "deepseek/deepseek-r1-0528:free",
             "tags": [
                 "thinking",
@@ -129,7 +141,11 @@
             "tags": [
                 "medium",
                 "thinking"
-            ]
+            ],
+            "rate_limit":{
+                "rpm": 20,
+                "rpd": 200
+            }
         },
         {
             "provider": "g",
