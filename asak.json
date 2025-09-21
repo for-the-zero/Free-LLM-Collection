@@ -114,18 +114,6 @@
         },
         {
             "provider": "or",
-            "model": "deepseek/deepseek-chat-v3-0324:free",
-            "tags": [
-                "coding",
-                "pro"
-            ],
-            "rate_limit": {
-                "rpm": 20,
-                "rpd": 200
-            }
-        },
-        {
-            "provider": "or",
             "model": "tencent/hunyuan-a13b-instruct:free",
             "tags": [
                 "medium"
@@ -252,18 +240,6 @@
             "rate_limit": {
                 "rpm": 10,
                 "rpd": 250
-            }
-        },
-        {
-            "provider": "or",
-            "model": "thudm/glm-z1-32b:free",
-            "tags": [
-                "thinking",
-                "medium"
-            ],
-            "rate_limit": {
-                "rpm": 20,
-                "rpd": 200
             }
         },
         {
