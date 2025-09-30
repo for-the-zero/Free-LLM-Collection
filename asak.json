@@ -79,6 +79,30 @@
         },
         {
             "provider": "ilm",
+            "model": "internvl3.5-241b-a28b",
+            "tags": [
+                "pro",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 1919810
+            }
+        },
+        {
+            "provider": "ilm",
+            "model": "internvl3-78b",
+            "tags": [
+                "pro",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 1919810
+            }
+        },
+        {
+            "provider": "ilm",
             "model": "intern-latest",
             "tags": [
                 "pro",
@@ -146,6 +170,17 @@
             "rate_limit": {
                 "rpm": 10,
                 "rpd": 250
+            }
+        },
+        {
+            "provider": "or",
+            "model": "meituan/longcat-flash-chat",
+            "tags": [
+                "fast"
+            ],
+            "rate_limit": {
+                "rpm": 20,
+                "rpd": 200
             }
         },
         {
@@ -324,6 +359,17 @@
             "rate_limit": {
                 "rpm": 1000,
                 "rpd": 50000
+            }
+        },
+        {
+            "provider": "ilm",
+            "model": "intern-s1-mini",
+            "tags": [
+                "fast"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 1919810
             }
         },
         {
