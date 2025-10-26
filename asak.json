@@ -54,6 +54,13 @@
         },
         {
             "provider": "or",
+            "model": "minimax/minimax-m2:free",
+            "tags": [
+                "medium"
+            ]
+        },
+        {
+            "provider": "or",
             "model": "deepseek/deepseek-chat-v3.1:free",
             "tags": [
                 "pro",
@@ -174,7 +181,7 @@
         },
         {
             "provider": "or",
-            "model": "meituan/longcat-flash-chat",
+            "model": "meituan/longcat-flash-chat:free",
             "tags": [
                 "fast"
             ],
