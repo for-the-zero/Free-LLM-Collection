@@ -39,6 +39,19 @@
     },
     "models": [
         {
+            "provider": "or",
+            "model": "x-ai/grok-4.1-fast:free",
+            "tags": [
+                "medium",
+                "coding",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 20,
+                "rpd": 200
+            }
+        },
+        {
             "provider": "g",
             "model": "gemini-2.5-pro",
             "tags": [
