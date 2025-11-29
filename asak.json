@@ -35,9 +35,129 @@
         "gm": {
             "base_url": "https://models.github.ai/inference",
             "key": ""
+        },
+        "hjm": {
+            "base_url": "https://api.gemai.cc/v1",
+            "key": ""
+        },
+        "xm": {
+            "base_url": "https://api520.pro/v1",
+            "key": ""
         }
     },
     "models": [
+        {
+            "provider": "hjm",
+            "model": "[满血A]gemini-3-pro-preview-thinking",
+            "tags": [
+                "pro",
+                "coding",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "xm",
+            "model": "熊猫特供-按量-SSS-gemini-3-pro-preview",
+            "tags": [
+                "pro",
+                "coding"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "hjm",
+            "model": "[满血A]gemini-3-pro-preview",
+            "tags": [
+                "pro",
+                "coding",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "xm",
+            "model": "熊猫-按量-特供顶级-官方正向满血-claude-opus-4.5-thinking",
+            "tags": [
+                "pro",
+                "coding",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "xm",
+            "model": "熊猫-按量-特供顶级-官方正向满血-claude-opus-4.5",
+            "tags": [
+                "pro",
+                "coding"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "xm",
+            "model": "熊猫-按量-特供顶级-官方正向满血-claude-sonnet-4.5-thinking",
+            "tags": [
+                "pro",
+                "coding",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "xm",
+            "model": "熊猫-按量-特供顶级-官方正向满血-claude-sonnet-4.5",
+            "tags": [
+                "pro",
+                "coding"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "hjm",
+            "model": "[特价C]128k-claude-sonnet-4-5-20250929",
+            "tags": [
+                "pro",
+                "coding"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "hjm",
+            "model": "gpt-5.1-high",
+            "tags": [
+                "pro",
+                "coding"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
         {
             "provider": "or",
             "model": "x-ai/grok-4.1-fast:free",
@@ -49,6 +169,55 @@
             "rate_limit": {
                 "rpm": 20,
                 "rpd": 200
+            }
+        },
+        {
+            "provider": "xm",
+            "model": "熊猫-A-5-grok-4.1",
+            "tags": [
+                "pro",
+                "coding"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "hjm",
+            "model": "grok-4.1",
+            "tags": [
+                "pro",
+                "coding",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "hjm",
+            "model": "[满血C]gemini-2.5-pro-thinking",
+            "tags": [
+                "pro",
+                "coding",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "xm",
+            "model": "熊猫特供-按量-SS-gemini-2.5-pro-thinking",
+            "tags": [
+                "fast"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
             }
         },
         {
@@ -66,11 +235,170 @@
             }
         },
         {
+            "provider": "xm",
+            "model": "熊猫特供-按量-SS-gemini-2.5-pro",
+            "tags": [
+                "fast"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "hjm",
+            "model": "deepseek-v3.2-exp-thinking",
+            "tags": [
+                "pro",
+                "coding",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "xm",
+            "model": "熊猫-A-5-deepseek-v3.2-thinking-满血",
+            "tags": [
+                "pro",
+                "coding",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "hjm",
+            "model": "[官逆]gemini-2.5-pro",
+            "tags": [
+                "pro",
+                "coding"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "hjm",
+            "model": "grok-4",
+            "tags": [
+                "pro",
+                "coding",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "xm",
+            "model": "熊猫-A-5-Grok-4-fast-200w上下文已知最大",
+            "tags": [
+                "medium"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "xm",
+            "model": "熊猫-按量-特供顶级-官方正向满血-claude-opus-4.5",
+            "tags": [
+                "pro",
+                "coding"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "xm",
+            "model": "熊猫-A-4-deepseek-v3.2-满血",
+            "tags": [
+                "pro",
+                "coding"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "hjm",
+            "model": "deepseek-v3.2-exp",
+            "tags": [
+                "pro",
+                "coding"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "xm",
+            "model": "熊猫-A-5-豆包-doubao-seed-1.6-thinking",
+            "tags": [
+                "medium",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "xm",
+            "model": "熊猫-A-4-豆包-doubao-seed-1.6",
+            "tags": [
+                "medium"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
             "provider": "or",
             "model": "minimax/minimax-m2:free",
             "tags": [
                 "medium"
-            ]
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "xm",
+            "model": "熊猫-A-4-minimax-m2",
+            "tags": [
+                "medium"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "xm",
+            "model": "熊猫-A-3-qwen3-max-满血",
+            "tags": [
+                "pro",
+                "coding"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
         },
         {
             "provider": "or",
@@ -85,6 +413,30 @@
             }
         },
         {
+            "provider": "xm",
+            "model": "熊猫-A-5-deepseek-v3.1-terminus-thinking-满血",
+            "tags": [
+                "pro",
+                "coding"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "hjm",
+            "model": "gpt-5.1",
+            "tags": [
+                "pro",
+                "coding"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
             "provider": "or",
             "model": "deepseek/deepseek-r1-0528:free",
             "tags": [
@@ -95,6 +447,30 @@
             "rate_limit": {
                 "rpm": 20,
                 "rpd": 200
+            }
+        },
+        {
+            "provider": "xm",
+            "model": "熊猫-A-3-速度极快-gpt-oss-120b",
+            "tags": [
+                "medium"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "hjm",
+            "model": "[满血C]gemini-2.5-flash-thinking",
+            "tags": [
+                "medium",
+                "coding",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
             }
         },
         {
@@ -181,7 +557,7 @@
         },
         {
             "provider": "g",
-            "model": "gemini-2.5-flash",
+            "model": "gemini-2.5-flash-latest",
             "tags": [
                 "medium",
                 "coding",
@@ -193,6 +569,29 @@
             }
         },
         {
+            "provider": "xm",
+            "model": "熊猫-A-2-gemini-2.5-flash-0925",
+            "tags": [
+                "fast"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "hjm",
+            "model": "[满血B]gemini-2.5-flash",
+            "tags": [
+                "medium",
+                "coding"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
             "provider": "or",
             "model": "meituan/longcat-flash-chat:free",
             "tags": [
@@ -201,6 +600,42 @@
             "rate_limit": {
                 "rpm": 20,
                 "rpd": 200
+            }
+        },
+        {
+            "provider": "xm",
+            "model": "熊猫-按量-特供顶级-官方正向满血-claude-opus-4.1-thinking",
+            "tags": [
+                "pro",
+                "coding",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "xm",
+            "model": "熊猫-按量-特供顶级-官方正向满血-claude-opus-4.1",
+            "tags": [
+                "pro",
+                "coding"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "xm",
+            "model": "熊猫-按量-特供顶级-官方正向满血-claude-haiku-4.5",
+            "tags": [
+                "fast"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
             }
         },
         {
@@ -216,6 +651,31 @@
             }
         },
         {
+            "provider": "xm",
+            "model": "熊猫-按量-特供顶级-官方正向满血-claude-opus-4",
+            "tags": [
+                "pro",
+                "coding"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
+            "provider": "xm",
+            "model": "熊猫-A-5-智谱glm-4.6-满血",
+            "tags": [
+                "pro",
+                "coding",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
+            }
+        },
+        {
             "provider": "or",
             "model": "moonshotai/kimi-k2:free",
             "tags": [
@@ -225,6 +685,18 @@
             "rate_limit": {
                 "rpm": 20,
                 "rpd": 200
+            }
+        },
+        {
+            "provider": "xm",
+            "model": "熊猫-A-5-kimi-k2-thinking-满血",
+            "tags": [
+                "pro",
+                "coding"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
             }
         },
         {
@@ -264,7 +736,7 @@
         },
         {
             "provider": "g",
-            "model": "gemini-2.5-flash-lite",
+            "model": "gemini-2.5-flash-lite-latest",
             "tags": [
                 "fast",
                 "gfw"
@@ -272,6 +744,17 @@
             "rate_limit": {
                 "rpm": 15,
                 "rpd": 1000
+            }
+        },
+        {
+            "provider": "xm",
+            "model": "熊猫-A-1-gemini-2.5-flash-lite-0925",
+            "tags": [
+                "fast"
+            ],
+            "rate_limit": {
+                "rpm": 10,
+                "rpd": 100
             }
         },
         {
