@@ -221,20 +221,6 @@
             }
         },
         {
-            "provider": "g",
-            "model": "gemini-2.5-pro",
-            "tags": [
-                "pro",
-                "coding",
-                "thinking",
-                "gfw"
-            ],
-            "rate_limit": {
-                "rpm": 5,
-                "rpd": 100
-            }
-        },
-        {
             "provider": "xm",
             "model": "熊猫特供-按量-SS-gemini-2.5-pro",
             "tags": [
@@ -522,6 +508,29 @@
             }
         },
         {
+            "provider": "or",
+            "model": "kwaipilot/kat-coder-pro:free",
+            "tags": [
+                "pro",
+                "coding"
+            ],
+            "rate_limit": {
+                "rpm": 20,
+                "rpd": 200
+            }
+        },
+        {
+            "provider": "or",
+            "model": "arcee-ai/trinity-mini:free",
+            "tags": [
+                "fast"
+            ],
+            "rate_limit": {
+                "rpm": 20,
+                "rpd": 200
+            }
+        },
+        {
             "provider": "gm",
             "model": "openai/gpt-4.1",
             "tags": [
@@ -564,8 +573,8 @@
                 "gfw"
             ],
             "rate_limit": {
-                "rpm": 10,
-                "rpd": 250
+                "rpm": 5,
+                "rpd": 20
             }
         },
         {
@@ -700,6 +709,29 @@
             }
         },
         {
+            "provider": "or",
+            "model": "allenai/olmo-3-32b-think:free",
+            "tags": [
+                "medium",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 20,
+                "rpd": 200
+            }
+        },
+        {
+            "provider": "or",
+            "model": "amazon/nova-2-lite-v1:free",
+            "tags": [
+                "fast"
+            ],
+            "rate_limit": {
+                "rpm": 20,
+                "rpd": 200
+            }
+        },
+        {
             "provider": "gm",
             "model": "openai/gpt-4o",
             "tags": [
@@ -742,8 +774,8 @@
                 "gfw"
             ],
             "rate_limit": {
-                "rpm": 15,
-                "rpd": 1000
+                "rpm": 10,
+                "rpd": 20
             }
         },
         {
@@ -842,6 +874,17 @@
             }
         },
         {
+            "provider": "g",
+            "model": "gemma-3-27b",
+            "tags": [
+                "fast"
+            ],
+            "rate_limit": {
+                "rpm": 30,
+                "rpd": 1440
+            }
+        },
+        {
             "provider": "bm",
             "model": "GLM-4-Flash-250414",
             "tags": [
@@ -850,6 +893,17 @@
             "rate_limit": {
                 "rpm": 60,
                 "rpd": 86400
+            }
+        },
+        {
+            "provider": "g",
+            "model": "gemma-3-12b",
+            "tags": [
+                "fast"
+            ],
+            "rate_limit": {
+                "rpm": 30,
+                "rpd": 1440
             }
         },
         {
@@ -931,6 +985,17 @@
             "rate_limit": {
                 "rpm": 1000,
                 "rpd": 50000
+            }
+        },
+        {
+            "provider": "g",
+            "model": "gemma-3-4b",
+            "tags": [
+                "fast"
+            ],
+            "rate_limit": {
+                "rpm": 30,
+                "rpd": 1440
             }
         }
     ]
