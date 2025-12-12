@@ -877,7 +877,8 @@
             "provider": "g",
             "model": "gemma-3-27b",
             "tags": [
-                "fast"
+                "fast",
+                "gfw"
             ],
             "rate_limit": {
                 "rpm": 30,
@@ -899,7 +900,8 @@
             "provider": "g",
             "model": "gemma-3-12b",
             "tags": [
-                "fast"
+                "fast",
+                "gfw"
             ],
             "rate_limit": {
                 "rpm": 30,
@@ -991,7 +993,8 @@
             "provider": "g",
             "model": "gemma-3-4b",
             "tags": [
-                "fast"
+                "fast",
+                "gfw"
             ],
             "rate_limit": {
                 "rpm": 30,
