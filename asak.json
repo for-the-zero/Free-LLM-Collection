@@ -110,6 +110,20 @@
             }
         },
         {
+            "provider": "g",
+            "model": "gemini-3-flash",
+            "tags": [
+                "medium",
+                "coding",
+                "thinking",
+                "gfw"
+            ],
+            "rate_limit": {
+                "rpm": 5,
+                "rpd": 20
+            }
+        },
+        {
             "provider": "xm",
             "model": "熊猫-按量-特供顶级-官方正向满血-claude-sonnet-4.5-thinking",
             "tags": [
@@ -255,6 +269,18 @@
             "rate_limit": {
                 "rpm": 10,
                 "rpd": 100
+            }
+        },
+        {
+            "provider": "or",
+            "model": "xiaomi/mimo-v2-flash:free",
+            "tags": [
+                "medium",
+                "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 20,
+                "rpd": 200
             }
         },
         {
@@ -444,6 +470,17 @@
             "rate_limit": {
                 "rpm": 10,
                 "rpd": 100
+            }
+        },
+        {
+            "provider": "or",
+            "model": "nvidia/nemotron-3-nano-30b-a3b:free",
+            "tags": [
+                "medium"
+            ],
+            "rate_limit": {
+                "rpm": 20,
+                "rpd": 200
             }
         },
         {
@@ -714,6 +751,17 @@
             "tags": [
                 "medium",
                 "thinking"
+            ],
+            "rate_limit": {
+                "rpm": 20,
+                "rpd": 200
+            }
+        },
+        {
+            "provider": "or",
+            "model": "mistralai/devstral-2512:free",
+            "tags": [
+                "coding"
             ],
             "rate_limit": {
                 "rpm": 20,
