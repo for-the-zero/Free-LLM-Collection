@@ -26,7 +26,7 @@
 
 `flc.json`:
 
-[JSDeliver](https://cdn.jsdelivr.net/gh/for-the-zero/Free-LLM-Collection@main/Taple.json) or [JSDMirror](https://cdn.jsdmirror.com/gh/for-the-zero/Free-LLM-Collection@main/Taple.json)
+[JSDeliver](https://cdn.jsdelivr.net/gh/for-the-zero/Free-LLM-Collection@main/flc.json) or [JSDMirror](https://cdn.jsdmirror.com/gh/for-the-zero/Free-LLM-Collection@main/flc.json)
 
 ## Markdown
 
