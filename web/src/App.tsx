@@ -12,6 +12,7 @@ import { M3eButtonGroup } from "@m3e/react/button-group";
 import { M3eAssistChip } from "@m3e/react/chips";
 import { M3eTooltip } from "@m3e/react/tooltip";
 import flcJson from "../../flc.json";
+import { M3eSnackbar } from "@m3e/react/snackbar";
 
 const providers = flcJson as FlcjsonType;
 
@@ -48,7 +49,10 @@ function containsAll(haystack: string[], needles: string[]) {
 }
 
 function ProviderCard({ provider, index, isZh, needles }: { provider: FlcjsonType[number]; index: number; isZh: boolean; needles: string[] }) {
-    const copy = (text: string) => navigator.clipboard.writeText(text);
+    const copy = (text: string) => {
+        navigator.clipboard.writeText(text);
+        M3eSnackbar.open(isZh ? '已复制' : 'Copied');
+    };
     const tip = isZh
         ? provider.ex_tip_zh ?? provider.ex_tip_en
         : provider.ex_tip_en ?? provider.ex_tip_zh;
@@ -82,7 +86,7 @@ function ProviderCard({ provider, index, isZh, needles }: { provider: FlcjsonTyp
                     </M3eHeading>
                     <div>
                         {group.ids.map(id => (
-                            <M3eAssistChip key={id} className="mr-1 mb-1" onClick={() => copy(id)}>
+                            <M3eAssistChip key={id} className="mr-1 mb-1 max-w-full" onClick={() => copy(id)}>
                                 <M3eIcon slot="icon" name={needles.length > 0 && containsAll(tokens(id, false), needles) ? "check" : "neurology"}></M3eIcon>{id}
                             </M3eAssistChip>
                         ))}
@@ -152,7 +156,7 @@ export function App() {
     }, [visible]);
 
     return <M3eDrawerContainer ref={drawerRef} start-mode="auto" className="h-full">
-        <div slot="start" id="toc-drawer">
+        <div slot="start" id="toc-drawer" className="max-w-[75vw]">
             <M3eNavMenu>
                 <M3eNavMenuItemGroup>
                     <M3eHeading slot="label" variant="label">{isZh ? '目录' : 'Table of Contents'}</M3eHeading>
@@ -220,7 +224,7 @@ export function App() {
                 <input slot="input" placeholder="Search..." onChange={(event) => setQuery(event.target.value)} />
             </M3eSearchBar>
 
-            <div className="columns-1 sm:columns-2 gap-4 *:mb-4 *:break-inside-avoid *:block">
+            <div className="masonry">
                 {visible.map(({ provider, index }) => (
                     <ProviderCard key={`${provider.name}-${index}`} provider={provider} index={index} isZh={isZh} needles={needles} />
                 ))}

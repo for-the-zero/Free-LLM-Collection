@@ -8,3 +8,34 @@ body{
     font-family: 'Google Sans','Noto Sans SC';
     margin: 0;
 }
+
+/* Multi-column masonry as fallback, upgraded to native CSS masonry where supported. */
+.masonry {
+    column-gap: 1rem;
+}
+
+.masonry > * {
+    margin-bottom: 1rem;
+    break-inside: avoid;
+    display: block;
+}
+
+@media (min-width: 40rem) {
+    .masonry { column-count: 2; }
+}
+
+@supports (display: grid-lanes) {
+    .masonry {
+        display: grid-lanes;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .masonry > * {
+        margin-bottom: 0;
+    }
+
+    @media (min-width: 40rem) {
+        .masonry { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+}
