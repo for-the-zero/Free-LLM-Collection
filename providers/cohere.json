@@ -1,0 +1,12 @@
+{
+  "name": "Cohere",
+  "website": "https://cohere.ai",
+  "api": "https://api.cohere.ai/compatibility/v1",
+  "ex_tip_zh": "绑定支付方式可以使用速率限制更宽松的 Production Key",
+  "ex_tip_en": "Binding payment methods can use rate limiting and relaxed Production Key",
+  "models": {
+    "type": "modelsdev",
+    "ratelimits": { "rpm": 20, "rpmo": 1000, "shared": false },
+    "provider_name_regex_match": "^cohere$"
+  }
+}

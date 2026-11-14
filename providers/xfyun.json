@@ -1,0 +1,12 @@
+{
+  "name": "讯飞星火",
+  "website": "https://console.xfyun.cn/",
+  "api": "https://spark-api-open.xf-yun.com/v1",
+  "models": [
+    {
+      "ratelimits": { "rps": 2, "shared": true },
+      "ids": ["lite"],
+      "ellipsis": false
+    }
+  ]
+}

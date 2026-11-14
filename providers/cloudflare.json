@@ -1,0 +1,18 @@
+{
+  "name": "Cloudflare Workers AI",
+  "disabled": true,
+  "website": "https://developers.cloudflare.com/workers-ai/models/",
+  "api": "https://api.cloudflare.com/client/v4/accounts/{ACCOUNT_ID}/ai/v1",
+  "models": [
+    {
+      "ratelimits": { "ex_limits_zh": "每天 1 万 Neurons / 10k Neurons Per Day", "ex_limits_en": "10k Neurons Per Day", "shared": true },
+      "ids": [
+        "@cf/moonshotai/kimi-k2.7-code",
+        "@cf/zai-org/glm-5.2",
+        "@cf/moonshotai/kimi-k2.6",
+        "@cf/moonshotai/kimi-k2.5"
+      ],
+      "ellipsis": false
+    }
+  ]
+}

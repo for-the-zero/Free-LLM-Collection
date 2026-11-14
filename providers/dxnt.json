@@ -1,0 +1,12 @@
+{
+  "name": "Token平台 / DXNT",
+  "website": "https://www.dxnt.com/free",
+  "api": "https://www.dxnt.com/v1",
+  "models": [
+    {
+      "ratelimits": { "unknown": true, "ex_limits_zh": "每日 100+ 次免费调用", "ex_limits_en": "100+ free calls per day", "shared": true },
+      "ids": ["glm-4.7-flash", "Qwen3.8-27B", "qwen3-vl-30b-a3b", "nemotron-3-nano-omni", "gemma4-26b-a4b"],
+      "ellipsis": false
+    }
+  ]
+}

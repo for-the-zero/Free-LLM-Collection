@@ -1,0 +1,27 @@
+{
+  "name": "Google Gemini",
+  "website": "https://aistudio.google.com",
+  "api": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "models": [
+    {
+      "ratelimits": { "rpm": 5, "rpd": 20, "shared": false },
+      "ids": ["gemini-3-flash-preview"],
+      "ellipsis": false
+    },
+    {
+      "ratelimits": { "rpm": 5, "rpd": 20, "shared": false },
+      "ids": ["gemini-3.5-flash", "gemini-3.6-flash", "gemini-3.7-flash"],
+      "ellipsis": false
+    },
+    {
+      "ratelimits": { "rpm": 15, "rpd": 500, "shared": false },
+      "ids": ["gemini-3.1-flash-lite-preview", "gemini-3.5-flash-lite"],
+      "ellipsis": false
+    },
+    {
+      "ratelimits": { "rpm": 15, "rpd": 1500, "shared": false },
+      "ids": ["gemma-4-26b-a4b-it", "gemma-4-31b-it"],
+      "ellipsis": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Intern AI",
+  "website": "https://chat.intern-ai.org.cn",
+  "api": "https://chat.intern-ai.org.cn/api/v1",
+  "ex_tip_zh": "密钥有效期 6 个月",
+  "ex_tip_en": "The key is valid for 6 months",
+  "models": [
+    {
+      "ratelimits": { "unknown": true, "shared": true },
+      "ids": ["intern-latest"],
+      "ellipsis": false
+    }
+  ]
+}

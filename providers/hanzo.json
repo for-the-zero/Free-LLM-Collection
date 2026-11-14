@@ -1,0 +1,11 @@
+{
+  "name": "Hanzo",
+  "website": "https://platform.hanzo.ai/",
+  "api": "https://api.hanzo.ai/v1",
+  "models": {
+    "type": "apiget",
+    "ratelimits": { "unknown": true, "ex_limits_zh": "免费计划每日请求池", "ex_limits_en": "Free plan daily request pool", "shared": true },
+    "keyref": "HANZO_KEY",
+    "eval": "r.data.filter(m => m.free && (m.outputs ?? []).includes('text')).map(m => m.id)"
+  }
+}

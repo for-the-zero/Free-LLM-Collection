@@ -1,0 +1,11 @@
+{
+  "name": "NVIDIA NIM",
+  "website": "https://build.nvidia.com/",
+  "api": "https://integrate.api.nvidia.com/v1",
+  "models": {
+    "type": "modelsdev",
+    "ratelimits": { "unknown": true, "shared": true },
+    "provider_name_regex_match": "^nvidia$",
+    "prize_io_0": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Groq",
+  "website": "https://groq.com",
+  "api": "https://api.groq.com/openai/v1/",
+  "models": {
+    "type": "modelsdev",
+    "ratelimits": { "rpm": 30, "rpd": 1000, "shared": false },
+    "provider_name_regex_match": "^groq$",
+    "model_id_regex_exclude": "prompt-guard"
+  }
+}

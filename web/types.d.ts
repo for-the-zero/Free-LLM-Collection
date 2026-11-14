@@ -2,11 +2,13 @@ interface BaseType<MG>{
     name: string;
     disabled?: boolean;
     website: string;
-    ex_tip?: string;
+    api?: string;
+    ex_tip_zh?: string;
+    ex_tip_en?: string;
     models: MG;
 }
 
-interface RateLimites{
+interface RateLimits{
     rps?: number;
     tps?: number;
     rpm?: number;
@@ -17,6 +19,7 @@ interface RateLimites{
     tpd?: number;
     rpmo?: number;
     tpmo?: number;
+    unknown?: boolean;
     ex_limits_zh?: string;
     ex_limits_en?: string;
     shared: boolean;
@@ -32,6 +35,7 @@ type ModelsToGet = {
     ratelimits: RateLimits;
     provider_name_regex_match: string;
     model_id_regex_match?: string;
+    model_id_regex_exclude?: string;
     prize_io_0?: boolean;
 } | {
     type: 'apiget';

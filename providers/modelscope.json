@@ -1,0 +1,11 @@
+{
+  "name": "ModelScope",
+  "disabled": true,
+  "website": "https://modelscope.cn",
+  "api": "https://api-inference.modelscope.cn/v1/",
+  "models": {
+    "type": "apiget",
+    "ratelimits": { "rpd": 2000, "shared": true },
+    "keyref": "MODELSCOPE_KEY"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Requesty",
+  "website": "https://www.requesty.ai/free-models",
+  "api": "https://router.requesty.ai/v1",
+  "models": {
+    "type": "modelsdev",
+    "ratelimits": { "rpd": 200, "shared": true },
+    "provider_name_regex_match": "^requesty$",
+    "prize_io_0": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Poolside",
+  "disabled": true,
+  "website": "https://platform.poolside.ai/",
+  "api": "https://inference.poolside.ai/v1",
+  "models": {
+    "type": "modelsdev",
+    "ratelimits": { "unknown": true, "shared": true },
+    "provider_name_regex_match": "^poolside$",
+    "prize_io_0": true
+  }
+}

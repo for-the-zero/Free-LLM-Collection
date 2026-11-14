@@ -1,0 +1,15 @@
+{
+  "name": "ChatAnywhere",
+  "website": "https://chatanywhere.tech",
+  "api": "https://api.chatanywhere.tech",
+  "models": {
+    "type": "apiget",
+    "ratelimits": {
+      "ex_limits_zh": "每天 100 Points + 每周 50000 Points + ...",
+      "ex_limits_en": "100 Points Per Day + 50000 Points Per Week + ...",
+      "shared": true
+    },
+    "keyref": "CHATANYWHERE_KEY",
+    "eval": "r.data.map(m => m.id).filter(id => !/(embed|whisper|tts|audio|dall-e|image|rerank|moderation|transcri|speech)/i.test(id))"
+  }
+}

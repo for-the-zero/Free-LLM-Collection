@@ -1,0 +1,11 @@
+{
+  "name": "Kilo Gateway",
+  "website": "https://kilo.ai/landing/free-models",
+  "api": "https://api.kilo.ai/api/gateway",
+  "models": {
+    "type": "apiget",
+    "ratelimits": { "rph": 200, "shared": true },
+    "keyref": "KILO_KEY",
+    "eval": "r.data.filter(m => m.isFree).map(m => m.id)"
+  }
+}

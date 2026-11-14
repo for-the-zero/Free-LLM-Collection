@@ -1,0 +1,10 @@
+{
+  "name": "FreeAIapikey",
+  "website": "https://freeaiapikey.com",
+  "api": "https://api.freeaiapikey.com/v1",
+  "models": {
+    "type": "apiget",
+    "ratelimits": { "tpd": 100000, "shared": true },
+    "keyref": "FREEAIAPIKEY_KEY"
+  }
+}

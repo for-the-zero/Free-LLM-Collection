@@ -1,0 +1,709 @@
+[
+  {
+    "name": "Agens AI",
+    "website": "https://platform.agnes-ai.com/",
+    "api": "https://apihub.agnes-ai.com/v1",
+    "models": [
+      {
+        "ratelimits": {
+          "unknown": true,
+          "shared": true
+        },
+        "ids": [
+          "agnes-2.0-flash",
+          "agnes-2.5-flash",
+          "agnes-3.0-flash"
+        ],
+        "ellipsis": false
+      }
+    ]
+  },
+  {
+    "name": "AI BBS 中转",
+    "website": "https://ai.bbs.lc",
+    "api": "https://ai.bbs.lc/v1",
+    "ex_tip_zh": "Key选择「免费」分组",
+    "ex_tip_en": "Create key in the \"免费\" group",
+    "models": [
+      {
+        "ratelimits": {
+          "ex_limits_zh": "来自上游服务的限制",
+          "ex_limits_en": "Limits From Upstream Service",
+          "shared": true
+        },
+        "ids": [
+          "deepseek-flash",
+          "deepseek-v4-pro"
+        ],
+        "ellipsis": false
+      }
+    ]
+  },
+  {
+    "name": "Bigmodel",
+    "website": "https://bigmodel.cn",
+    "api": "https://open.bigmodel.cn/api/paas/v4/",
+    "models": [
+      {
+        "ratelimits": {
+          "unknown": true,
+          "ex_limits_zh": "并发 1",
+          "ex_limits_en": "1 concurrent request",
+          "shared": true
+        },
+        "ids": [
+          "GLM-4.6V-Flash",
+          "GLM-4.7-Flash"
+        ],
+        "ellipsis": false
+      }
+    ]
+  },
+  {
+    "name": "ChatAnywhere",
+    "website": "https://chatanywhere.tech",
+    "api": "https://api.chatanywhere.tech",
+    "models": [
+      {
+        "ratelimits": {
+          "ex_limits_zh": "每天 100 Points + 每周 50000 Points + ...",
+          "ex_limits_en": "100 Points Per Day + 50000 Points Per Week + ...",
+          "shared": true
+        },
+        "ids": [
+          "deepseek-chat",
+          "deepseek-v3.2",
+          "deepseek-v4-pro",
+          "deepseek-v4.1-flash",
+          "deepseek-v4.1-flash-1017",
+          "gpt-3.5-turbo",
+          "gpt-4.1",
+          "gpt-4.1-mini",
+          "gpt-4o",
+          "gpt-4o-mini",
+          "gpt-5",
+          "gpt-5-mini",
+          "gpt-5-nano",
+          "gpt-5.1",
+          "gpt-5.2",
+          "gpt-5.4",
+          "gpt-5.4-mini",
+          "gpt-5.4-nano",
+          "gpt-5.5",
+          "gpt-5.6-luna",
+          "gpt-5.6-sol",
+          "gpt-5.6-terra",
+          "gpt-6-astra",
+          "gpt-6-luna",
+          "gpt-6-sol",
+          "gpt-6.1-sol",
+          "gpt-6.1-terra"
+        ],
+        "ellipsis": false
+      }
+    ]
+  },
+  {
+    "name": "Cohere",
+    "website": "https://cohere.ai",
+    "api": "https://api.cohere.ai/compatibility/v1",
+    "ex_tip_zh": "绑定支付方式可以使用速率限制更宽松的 Production Key",
+    "ex_tip_en": "Binding payment methods can use rate limiting and relaxed Production Key",
+    "models": [
+      {
+        "ratelimits": {
+          "rpm": 20,
+          "rpmo": 1000,
+          "shared": false
+        },
+        "ids": [
+          "c4ai-aya-expanse-32b",
+          "c4ai-aya-vision-32b",
+          "command-a-03-2025",
+          "command-a-plus-05-2026",
+          "command-a-reasoning-08-2025",
+          "command-a-translate-08-2025",
+          "command-a-vision-07-2025",
+          "command-r-08-2024",
+          "command-r-plus-08-2024",
+          "command-r7b-12-2024",
+          "command-r7b-arabic-02-2025",
+          "north-mini-code-1-0",
+          "north-small-translate-09-2026",
+          "tiny-aya-earth",
+          "tiny-aya-fire",
+          "tiny-aya-global",
+          "tiny-aya-water"
+        ],
+        "ellipsis": false
+      }
+    ]
+  },
+  {
+    "name": "FreeAIapikey",
+    "website": "https://freeaiapikey.com",
+    "api": "https://api.freeaiapikey.com/v1",
+    "models": [
+      {
+        "ratelimits": {
+          "tpd": 100000,
+          "shared": true
+        },
+        "ids": [
+          "anthropic/claude-fable-5.1",
+          "anthropic/claude-opus-4.7",
+          "anthropic/claude-opus-4.8",
+          "anthropic/claude-opus-5",
+          "anthropic/claude-opus-5.5",
+          "anthropic/claude-sonnet-5",
+          "anthropic/claude-sonnet-5.5",
+          "MoonshotAI/kimi-k3",
+          "MoonshotAI/kimi-k3.1-pro",
+          "openai/gpt-5.5",
+          "openai/gpt-5.6-sol",
+          "openai/gpt-6-Astra",
+          "openai/gpt-6-sol",
+          "openai/gpt-6.1-sol"
+        ],
+        "ellipsis": false
+      }
+    ]
+  },
+  {
+    "name": "G4F",
+    "website": "https://g4f.dev/",
+    "api": "https://g4f.space/v1",
+    "models": [
+      {
+        "ratelimits": {
+          "unknown": true,
+          "shared": true
+        },
+        "ids": [
+          "auto"
+        ],
+        "ellipsis": true
+      }
+    ]
+  },
+  {
+    "name": "Google Gemini",
+    "website": "https://aistudio.google.com",
+    "api": "https://generativelanguage.googleapis.com/v1beta/openai",
+    "models": [
+      {
+        "ratelimits": {
+          "rpm": 5,
+          "rpd": 20,
+          "shared": false
+        },
+        "ids": [
+          "gemini-3-flash-preview"
+        ],
+        "ellipsis": false
+      },
+      {
+        "ratelimits": {
+          "rpm": 5,
+          "rpd": 20,
+          "shared": false
+        },
+        "ids": [
+          "gemini-3.5-flash",
+          "gemini-3.6-flash",
+          "gemini-3.7-flash"
+        ],
+        "ellipsis": false
+      },
+      {
+        "ratelimits": {
+          "rpm": 15,
+          "rpd": 500,
+          "shared": false
+        },
+        "ids": [
+          "gemini-3.1-flash-lite-preview",
+          "gemini-3.5-flash-lite"
+        ],
+        "ellipsis": false
+      },
+      {
+        "ratelimits": {
+          "rpm": 15,
+          "rpd": 1500,
+          "shared": false
+        },
+        "ids": [
+          "gemma-4-26b-a4b-it",
+          "gemma-4-31b-it"
+        ],
+        "ellipsis": false
+      }
+    ]
+  },
+  {
+    "name": "Groq",
+    "website": "https://groq.com",
+    "api": "https://api.groq.com/openai/v1/",
+    "models": [
+      {
+        "ratelimits": {
+          "rpm": 30,
+          "rpd": 1000,
+          "shared": false
+        },
+        "ids": [
+          "allam-2-7b",
+          "llama-3.1-8b-instant",
+          "llama-3.3-70b-versatile",
+          "openai/gpt-oss-20b",
+          "openai/gpt-oss-120b",
+          "openai/gpt-oss-safeguard-20b",
+          "qwen/qwen3.6-27b",
+          "qwen/qwen3.8-27b"
+        ],
+        "ellipsis": false
+      }
+    ]
+  },
+  {
+    "name": "Hanzo",
+    "website": "https://platform.hanzo.ai/",
+    "api": "https://api.hanzo.ai/v1",
+    "models": [
+      {
+        "ratelimits": {
+          "unknown": true,
+          "ex_limits_zh": "免费计划每日请求池",
+          "ex_limits_en": "Free plan daily request pool",
+          "shared": true
+        },
+        "ids": [
+          "hanzo/zen",
+          "zen-vl",
+          "zen5",
+          "zen5-coder",
+          "zen5-evo",
+          "zen5-flash",
+          "zen5-mini",
+          "zen5-pro",
+          "zen5-spark"
+        ],
+        "ellipsis": false
+      }
+    ]
+  },
+  {
+    "name": "HuggingFace",
+    "website": "https://huggingface.co/models?inference_provider=all&sort=trending",
+    "api": "https://router.huggingface.co/v1",
+    "models": [
+      {
+        "ratelimits": {
+          "unknown": true,
+          "ex_limits_zh": "每月 $0.10 额度",
+          "ex_limits_en": "$0.10 monthly credit",
+          "shared": true
+        },
+        "ids": [
+          "deepseek-ai/DeepSeek-V4.1-Flash",
+          "inclusionAI/Ling-3.1-flash",
+          "meta-models/Muse-Glimmer-30B",
+          "moonshotai/Kimi-K3",
+          "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
+          "Qwen/Qwen3.8-27B",
+          "Qwen/Qwen3.8-Flash-Next",
+          "xingchen-agi/xing4.0-29b-a4b:free",
+          "zai-org/GLM-5.3",
+          "zai-org/GLM-5.3-Flash"
+        ],
+        "ellipsis": false
+      }
+    ]
+  },
+  {
+    "name": "Intern AI",
+    "website": "https://chat.intern-ai.org.cn",
+    "api": "https://chat.intern-ai.org.cn/api/v1",
+    "ex_tip_zh": "密钥有效期 6 个月",
+    "ex_tip_en": "The key is valid for 6 months",
+    "models": [
+      {
+        "ratelimits": {
+          "unknown": true,
+          "shared": true
+        },
+        "ids": [
+          "intern-latest"
+        ],
+        "ellipsis": false
+      }
+    ]
+  },
+  {
+    "name": "IteraCompute",
+    "website": "https://iteracompute.com/free/",
+    "api": "https://api.iteracompute.com/v1",
+    "models": [
+      {
+        "ratelimits": {
+          "tpm": 160000,
+          "tpmo": 30000000,
+          "shared": true
+        },
+        "ids": [
+          "qwen/qwen3.8-27b"
+        ],
+        "ellipsis": false
+      }
+    ]
+  },
+  {
+    "name": "Kilo Gateway",
+    "website": "https://kilo.ai/landing/free-models",
+    "api": "https://api.kilo.ai/api/gateway",
+    "models": [
+      {
+        "ratelimits": {
+          "rph": 200,
+          "shared": true
+        },
+        "ids": [
+          "baidu/ernie-5.5-flash-preview:free",
+          "cohere/north-mini-code:free",
+          "dots-studio/dots-3-note-preview:free",
+          "inclusionai/ling-3.2-flash:free",
+          "kilo-auto/free",
+          "liquid/lfm-3-1.7b:free",
+          "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+          "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "nvidia/nemotron-3.5-lightning:free",
+          "nvidia/nemotron-3.5-super-vl:free",
+          "openrouter/free",
+          "particle-ai/particle-1:free",
+          "reflection/beam-free",
+          "stealth/glyph-cluster"
+        ],
+        "ellipsis": false
+      }
+    ]
+  },
+  {
+    "name": "Mistral",
+    "website": "https://mistral.ai",
+    "api": "https://api.mistral.ai/v1",
+    "models": [
+      {
+        "ratelimits": {
+          "rps": 1,
+          "tpm": 500000,
+          "tpmo": 1000000000,
+          "shared": false
+        },
+        "ids": [
+          "codestral-2508",
+          "codestral-latest",
+          "deepseek-v4-1-flash-1017",
+          "devstral-2512",
+          "devstral-latest",
+          "devstral-medium-latest",
+          "glm-5-2",
+          "labs-devstral-small-2512",
+          "labs-leanstral-1-5-1",
+          "magistral-medium-latest",
+          "ministral-3b-2512",
+          "ministral-3b-latest",
+          "ministral-8b-2512",
+          "ministral-8b-latest",
+          "ministral-14b-2512",
+          "mistral-large-4",
+          "mistral-large-4-0-8",
+          "mistral-large-2512",
+          "mistral-large-latest",
+          "mistral-medium-2505",
+          "mistral-medium-2508",
+          "mistral-medium-2604",
+          "mistral-medium-latest",
+          "mistral-small-2506",
+          "mistral-small-2603",
+          "mistral-small-latest",
+          "open-mistral-nemo",
+          "pixtral-12b",
+          "voxtral-small-2507",
+          "voxtral-small-latest",
+          "zai-glm-5-2",
+          "zai-glm-5-3",
+          "zai-glm-5-3-flash"
+        ],
+        "ellipsis": false
+      }
+    ]
+  },
+  {
+    "name": "NovAI",
+    "website": "https://aiapi-pro.com",
+    "api": "https://aiapi-pro.com/v1",
+    "models": [
+      {
+        "ratelimits": {
+          "rpm": 5,
+          "rpd": 10,
+          "shared": false
+        },
+        "ids": [
+          "glm-4.1v-thinking-flash",
+          "glm-4.6v-flash",
+          "glm-4.7-flash"
+        ],
+        "ellipsis": false
+      }
+    ]
+  },
+  {
+    "name": "NVIDIA NIM",
+    "website": "https://build.nvidia.com/",
+    "api": "https://integrate.api.nvidia.com/v1",
+    "models": [
+      {
+        "ratelimits": {
+          "unknown": true,
+          "shared": true
+        },
+        "ids": [
+          "deepseek-ai/deepseek-v4.1-flash",
+          "google/diffusiongemma-26b-a4b-it",
+          "google/gemma-3-4b-it",
+          "google/gemma-3-12b-it",
+          "google/gemma-4-31b-it",
+          "google/google-paligemma",
+          "meta/llama-3.2-11b-vision-instruct",
+          "meta/llama-3.2-90b-vision-instruct",
+          "meta/llama-guard-4-12b",
+          "meta/muse-glimmer-30b",
+          "minimaxai/minimax-m3.1-flash",
+          "mistralai/magistral-small-2506",
+          "mistralai/mistral-7b-instruct-v0.3",
+          "mistralai/mistral-medium-3-instruct",
+          "moonshotai/kimi-k2.6",
+          "moonshotai/kimi-k3",
+          "nvidia/cosmos-reason2-8b",
+          "nvidia/llama-3.1-nemotron-70b-instruct",
+          "nvidia/llama-3.1-nemotron-safety-guard-8b-v3",
+          "nvidia/llama-3.1-nemotron-ultra-253b-v1",
+          "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+          "nvidia/nemotron-3-ultra-550b-a55b",
+          "nvidia/nemotron-3.5-content-safety",
+          "nvidia/nemotron-3.5-lightning-30b-a3b",
+          "nvidia/nemotron-3.5-super-vl-120b-a12b",
+          "nvidia/nemotron-voicechat",
+          "nvidia/riva-translate-4b-instruct-v1.1",
+          "nvidia/usdcode",
+          "nvidia/usdvalidate",
+          "openai/gpt-oss-20b",
+          "poolside/laguna-xs-2.1",
+          "stepfun-ai/step-5-preview",
+          "z-ai/glm-5.3",
+          "z-ai/glm-5.3-flash"
+        ],
+        "ellipsis": false
+      }
+    ]
+  },
+  {
+    "name": "OpenCode Console",
+    "website": "https://opencode.ai/v2/docs/console/models/#free-models",
+    "api": "https://opencode.ai/inference/openai/v1",
+    "models": [
+      {
+        "ratelimits": {
+          "ex_limits_zh": "动态限制",
+          "ex_limits_en": "Dynamic",
+          "shared": true
+        },
+        "ids": [
+          "beam-free",
+          "big-pickle",
+          "deepseek-v4.1-flash-free",
+          "flint-40b-free",
+          "glm-5.3-flash-free",
+          "iceman-free",
+          "inkling-2-small-free",
+          "longcat-2.5-free",
+          "mimo-v2.6-flash-free",
+          "minimax-m3.1-flash-free",
+          "nemotron-3.5-lightning-free",
+          "nemotron-3.5-super-vl-free"
+        ],
+        "ellipsis": false
+      }
+    ]
+  },
+  {
+    "name": "OpenRouter",
+    "website": "https://openrouter.ai/models",
+    "api": "https://openrouter.ai/api/v1",
+    "models": [
+      {
+        "ratelimits": {
+          "rpm": 20,
+          "rpd": 50,
+          "shared": false
+        },
+        "ids": [
+          "baidu/ernie-5.5-flash-preview:free",
+          "cohere/north-mini-code:free",
+          "dots-studio/dots-3-note-preview:free",
+          "google/gemma-4-26b-a4b-it:free",
+          "google/gemma-4-31b-it:free",
+          "liquid/lfm-3-1.7b:free",
+          "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+          "nvidia/nemotron-3-ultra-550b-a55b:free",
+          "nvidia/nemotron-3.5-lightning:free",
+          "nvidia/nemotron-3.5-super-vl:free",
+          "openrouter/free",
+          "particle-ai/particle-1:free",
+          "recursive/flint-v1.0:free",
+          "thinkingmachines/inkling-2-small:free"
+        ],
+        "ellipsis": false
+      }
+    ]
+  },
+  {
+    "name": "OrcaRouter",
+    "website": "https://www.orcarouter.ai/models?price=free",
+    "api": "https://api.orcarouter.ai/v1",
+    "models": [
+      {
+        "ratelimits": {
+          "ex_limits_zh": "动态调整",
+          "ex_limits_en": "Dynamic",
+          "shared": true
+        },
+        "ids": [
+          "deepseek/deepseek-v4-flash-free",
+          "orcarouter/auto",
+          "orcarouter/free",
+          "tencent/hy3-free",
+          "z-ai/glm-5.3-flash-free"
+        ],
+        "ellipsis": false
+      }
+    ]
+  },
+  {
+    "name": "Requesty",
+    "website": "https://www.requesty.ai/free-models",
+    "api": "https://router.requesty.ai/v1",
+    "models": [
+      {
+        "ratelimits": {
+          "rpd": 200,
+          "shared": true
+        },
+        "ids": [
+          "gemma-4-31b-it",
+          "laguna-m.1",
+          "laguna-xs.2",
+          "leanstral-1-5",
+          "leanstral-1-5@eu",
+          "ling-3.0-tiny",
+          "muse-glimmer-30b",
+          "nemotron-3-nano-omni-30b-a3b-reasoning",
+          "nemotron-3-super-120b-a12b",
+          "nemotron-3-ultra-550b-a55b",
+          "nemotron-3.5-content-safety",
+          "nemotron-3.5-lightning-30b-a3b"
+        ],
+        "ellipsis": false
+      }
+    ]
+  },
+  {
+    "name": "SenseNova",
+    "website": "https://platform.sensenova.cn",
+    "api": "https://token.sensenova.cn/v1",
+    "models": [
+      {
+        "ratelimits": {
+          "ex_limits_zh": "每 5 小时 60000 Points / 每周 600000 Points",
+          "ex_limits_en": "60000 Points Per 5 Hours / 600000 Points Per Week",
+          "shared": true
+        },
+        "ids": [
+          "deepseek-flash",
+          "deepseek-v4-flash",
+          "glm-5.2",
+          "glm-5.3",
+          "kimi-k3",
+          "sensenova-6.8-flash",
+          "sensenova-6.8-flash-lite"
+        ],
+        "ellipsis": false
+      }
+    ]
+  },
+  {
+    "name": "Token平台 / DXNT",
+    "website": "https://www.dxnt.com/free",
+    "api": "https://www.dxnt.com/v1",
+    "models": [
+      {
+        "ratelimits": {
+          "unknown": true,
+          "ex_limits_zh": "每日 100+ 次免费调用",
+          "ex_limits_en": "100+ free calls per day",
+          "shared": true
+        },
+        "ids": [
+          "gemma4-26b-a4b",
+          "glm-4.7-flash",
+          "nemotron-3-nano-omni",
+          "qwen3-vl-30b-a3b",
+          "Qwen3.8-27B"
+        ],
+        "ellipsis": false
+      }
+    ]
+  },
+  {
+    "name": "Vercel AI Gateway",
+    "website": "https://vercel.com/ai-gateway/models?sortField=inputCost&sortDirection=asc&q=free",
+    "api": "https://ai-gateway.vercel.sh/v1",
+    "models": [
+      {
+        "ratelimits": {
+          "unknown": true,
+          "ex_limits_zh": "每月 $5 额度",
+          "ex_limits_en": "$5 monthly credit",
+          "shared": true
+        },
+        "ids": [
+          "humansand/ampersand-v0.1",
+          "nvidia/nemotron-3.5-lightning-free",
+          "reflection/beam",
+          "reflection/beam-free",
+          "stealth/glyph-cluster"
+        ],
+        "ellipsis": false
+      }
+    ]
+  },
+  {
+    "name": "讯飞星火",
+    "website": "https://console.xfyun.cn/",
+    "api": "https://spark-api-open.xf-yun.com/v1",
+    "models": [
+      {
+        "ratelimits": {
+          "rps": 2,
+          "shared": true
+        },
+        "ids": [
+          "lite"
+        ],
+        "ellipsis": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "name": "OrcaRouter",
+  "website": "https://www.orcarouter.ai/models?price=free",
+  "api": "https://api.orcarouter.ai/v1",
+  "models": {
+    "type": "modelsdev",
+    "ratelimits": { "ex_limits_zh": "动态调整", "ex_limits_en": "Dynamic", "shared": true },
+    "provider_name_regex_match": "^orcarouter$",
+    "prize_io_0": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "OpenRouter",
+  "website": "https://openrouter.ai/models",
+  "api": "https://openrouter.ai/api/v1",
+  "models": {
+    "type": "modelsdev",
+    "ratelimits": { "rpm": 20, "rpd": 50, "shared": false },
+    "provider_name_regex_match": "^openrouter$",
+    "model_id_regex_exclude": "(^openrouter/(?!free$)|google/lyria)",
+    "prize_io_0": true
+  }
+}

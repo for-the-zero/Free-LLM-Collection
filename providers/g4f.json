@@ -1,0 +1,12 @@
+{
+  "name": "G4F",
+  "website": "https://g4f.dev/",
+  "api": "https://g4f.space/v1",
+  "models": [
+    {
+      "ratelimits": { "unknown": true, "shared": true },
+      "ids": ["auto"],
+      "ellipsis": true
+    }
+  ]
+}

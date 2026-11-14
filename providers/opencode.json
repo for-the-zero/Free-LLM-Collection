@@ -1,0 +1,11 @@
+{
+  "name": "OpenCode Console",
+  "website": "https://opencode.ai/v2/docs/console/models/#free-models",
+  "api": "https://opencode.ai/inference/openai/v1",
+  "models": {
+    "type": "apiget",
+    "ratelimits": { "ex_limits_zh": "动态限制", "ex_limits_en": "Dynamic", "shared": true },
+    "keyref": "OPENCODE_KEY",
+    "eval": "r.data.filter(m => m.cost?.text?.input?.price === 0 && m.cost?.text?.output?.price === 0 && (m.modalities?.output ?? []).includes('text')).map(m => m.id)"
+  }
+}

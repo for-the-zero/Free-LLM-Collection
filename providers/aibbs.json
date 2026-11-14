@@ -1,0 +1,12 @@
+{
+  "name": "AI BBS 中转",
+  "website": "https://ai.bbs.lc",
+  "api": "https://ai.bbs.lc/v1",
+  "ex_tip_zh": "Key选择「免费」分组",
+  "ex_tip_en": "Create key in the \"免费\" group",
+  "models": {
+    "type": "apiget",
+    "ratelimits": { "ex_limits_zh": "来自上游服务的限制", "ex_limits_en": "Limits From Upstream Service", "shared": true },
+    "keyref": "AIBBS_KEY"
+  }
+}

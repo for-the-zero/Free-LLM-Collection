@@ -1,0 +1,11 @@
+{
+  "name": "IteraCompute",
+  "website": "https://iteracompute.com/free/",
+  "api": "https://api.iteracompute.com/v1",
+  "models": {
+    "type": "modelsdev",
+    "ratelimits": { "tpm": 160000, "tpmo": 30000000, "shared": true },
+    "provider_name_regex_match": "^iteracompute$",
+    "prize_io_0": true
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Celebras",
+  "disabled": true,
+  "website": "https://celebras.ai",
+  "api": "https://api.celebras.ai/v1",
+  "models": [
+    {
+      "ratelimits": { "rpm": 30, "rph": 900, "rpd": 1440, "shared": false },
+      "ids": ["gpt-oss-120b", "qwen-3-235b-a22b-instruct-2507"],
+      "ellipsis": false
+    },
+    {
+      "ratelimits": { "rpm": 10, "rph": 100, "rpd": 100, "shared": false },
+      "ids": ["zai-glm-4.7"],
+      "ellipsis": false
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "HuggingFace",
+  "website": "https://huggingface.co/models?inference_provider=all&sort=trending",
+  "api": "https://router.huggingface.co/v1",
+  "models": [
+    {
+      "ratelimits": { "unknown": true, "ex_limits_zh": "每月 $0.10 额度", "ex_limits_en": "$0.10 monthly credit", "shared": true },
+      "ids": [
+        "xingchen-agi/xing4.0-29b-a4b:free",
+        "Qwen/Qwen3.8-27B",
+        "Qwen/Qwen3.8-Flash-Next",
+        "deepseek-ai/DeepSeek-V4.1-Flash",
+        "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
+        "inclusionAI/Ling-3.1-flash",
+        "zai-org/GLM-5.3-Flash",
+        "zai-org/GLM-5.3",
+        "moonshotai/Kimi-K3",
+        "meta-models/Muse-Glimmer-30B"
+      ],
+      "ellipsis": false
+    }
+  ]
+}

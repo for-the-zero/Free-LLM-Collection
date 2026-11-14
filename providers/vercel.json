@@ -1,0 +1,11 @@
+{
+  "name": "Vercel AI Gateway",
+  "website": "https://vercel.com/ai-gateway/models?sortField=inputCost&sortDirection=asc&q=free",
+  "api": "https://ai-gateway.vercel.sh/v1",
+  "models": {
+    "type": "modelsdev",
+    "ratelimits": { "unknown": true, "ex_limits_zh": "每月 $5 额度", "ex_limits_en": "$5 monthly credit", "shared": true },
+    "provider_name_regex_match": "^vercel$",
+    "prize_io_0": true
+  }
+}

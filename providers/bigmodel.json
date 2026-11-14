@@ -1,0 +1,12 @@
+{
+  "name": "Bigmodel",
+  "website": "https://bigmodel.cn",
+  "api": "https://open.bigmodel.cn/api/paas/v4/",
+  "models": [
+    {
+      "ratelimits": { "unknown": true, "ex_limits_zh": "并发 1", "ex_limits_en": "1 concurrent request", "shared": true },
+      "ids": ["GLM-4.7-Flash", "GLM-4.6V-Flash"],
+      "ellipsis": false
+    }
+  ]
+}

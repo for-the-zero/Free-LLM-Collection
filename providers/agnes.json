@@ -1,0 +1,11 @@
+{
+  "name": "Agens AI",
+  "website": "https://platform.agnes-ai.com/",
+  "api": "https://apihub.agnes-ai.com/v1",
+  "models": {
+    "type": "modelsdev",
+    "ratelimits": { "unknown": true, "shared": true },
+    "provider_name_regex_match": "^agnes$",
+    "prize_io_0": true
+  }
+}

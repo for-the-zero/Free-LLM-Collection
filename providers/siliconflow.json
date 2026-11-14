@@ -1,0 +1,21 @@
+{
+  "name": "硅基流动 / SiliconFlow",
+  "disabled": true,
+  "website": "https://siliconflow.cn",
+  "api": "https://api.siliconflow.cn/v1",
+  "models": [
+    {
+      "ratelimits": { "rpm": 1000, "shared": false },
+      "ids": [
+        "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
+        "Qwen/Qwen3-8B",
+        "Qwen/Qwen3.5-4B",
+        "THUDM/glm-4-9b-chat",
+        "THUDM/GLM-4-9B-0414",
+        "THUDM/GLM-Z1-9B-0414",
+        "THUDM/GLM-4.1V-9B-Thinking"
+      ],
+      "ellipsis": false
+    }
+  ]
+}

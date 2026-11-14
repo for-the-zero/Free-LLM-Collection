@@ -1,0 +1,10 @@
+{
+  "name": "Mistral",
+  "website": "https://mistral.ai",
+  "api": "https://api.mistral.ai/v1",
+  "models": {
+    "type": "modelsdev",
+    "ratelimits": { "rps": 1, "tpm": 500000, "tpmo": 1000000000, "shared": false },
+    "provider_name_regex_match": "^mistral$"
+  }
+}
