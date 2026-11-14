@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "bun --hot src/index.html",
     "build": "bun run build.ts",
+    "deploy": "bun run deploy.ts",
     "update": "bun update.ts",
     "typecheck": "bun check"
   },
