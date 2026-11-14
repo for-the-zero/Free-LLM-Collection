@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+html, body, #root {
+    height: 100%;
+}
+
+body{
+    font-family: 'Google Sans','Noto Sans SC';
+    margin: 0;
+}
