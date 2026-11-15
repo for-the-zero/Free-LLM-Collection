@@ -1,0 +1,18 @@
+{
+  "name": "cheapllm.shop",
+  "website": "https://cheapllm.shop",
+  "api": "https://cheapllm.shop/v1",
+  "ex_tip_zh": "公测期间免费且不限速；也支持 Anthropic Messages API（https://cheapllm.shop）；中国大陆访问未测试",
+  "ex_tip_en": "Free with no rate limit during the beta; Anthropic Messages API also at https://cheapllm.shop; access from mainland China not tested",
+  "models": [
+    {
+      "ratelimits": {
+        "ex_limits_zh": "公测结束后永久免费额度：每小时至少 5000 输入 tokens + 1000 输出 tokens",
+        "ex_limits_en": "Permanent free tier after the beta: at least 5000 input + 1000 output tokens per hour",
+        "shared": true
+      },
+      "ids": ["deepseek-v4.1-flash-1017"],
+      "ellipsis": false
+    }
+  ]
+}
